@@ -1,0 +1,28 @@
+{
+  "name": "js-37",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "dev": "npx parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /js-37/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist -b gh-pages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavlo20031/js-37.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pavlo20031/js-37/issues"
+  },
+  "homepage": "https://github.com/pavlo20031/js-37#readme",
+  "dependencies": {
+    "gh-pages": "^6.3.0",
+    "parcel": "^2.16.4"
+  }
+}
