@@ -37,15 +37,3 @@ function loadImages(page) {
     }
   });
 }
-
-function renderImages(arr) {
-  const createMarkup = arr
-    .map(({ id, tags, previewURL }) => {
-      return `<li id="${id}">
-        <img src="${previewURL}" alt="${tags}">
-      </li>`;
-    })
-    .join("");
-  listRef.insertAdjacentHTML("beforeend", createMarkup);
-}
-
